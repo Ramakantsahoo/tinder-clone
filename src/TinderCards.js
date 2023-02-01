@@ -1,7 +1,6 @@
 // import { listClasses } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import TinderCard from 'react-tinder-card';
-import db from './firebase';
 import './TinderCards.css';
 
 function TinderCards() {
@@ -35,16 +34,6 @@ function TinderCards() {
           url: 'https://media.gettyimages.com/id/462349074/photo/kristen-stewart-attends-the-chanel-show-as-part-of-paris-fashion-week-haute-couture-spring.jpg?s=612x612&w=0&k=20&c=aL7loIwj012XB3eiLLXxa0cyQQGcE5jCOWoVTTgDDA4=',
       }, 
     ]);
-
-    // useEffect(() => {
-    //   const hehe = db.collection("people").onSnapshot(snapshot => (
-    //     setPeople(snapshot.docs.map(doc => doc.data()))
-    //   ))
-    //   return () => {
-    //     hehe();
-    //   };
-    // }, []);
- 
 
   return (
     <div>
