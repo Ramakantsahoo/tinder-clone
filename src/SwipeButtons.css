@@ -1,0 +1,39 @@
+.swipeButtons {
+    bottom: 7vh;
+    display: flex;
+    width: 100% ;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+.swipeButtons .MuiIconButton-root {
+    background-color: white;
+    box-shadow: 0px 20px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* ! important is used to override other styling rules in that  */
+
+.swipeButtons__repeat{
+    padding: 1.8vw !important;
+    color: #f5b750 !important;
+}
+
+.swipeButtons__left{
+    padding: 1.8vw !important;
+    color: #ec5e6f !important;
+}
+
+.swipeButtons__star{
+    padding: 1.8vw !important;
+    color: #62b4f9 !important;
+}
+
+.swipeButtons__right{
+    padding: 1.8vw !important;
+    color: #76e2b3 !important;
+}
+
+.swipeButtons__lightning{
+    padding: 1.8vw !important;
+    color: #915dd1 !important;
+}
